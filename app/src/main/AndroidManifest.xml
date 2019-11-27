@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rizkikurniawan.rotasi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Main_Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tenaga_Kerja"
+            android:label="Data Tenaga Kerja"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Sertifikat"
+            android:label="@string/title_activity_sertifikat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LSP_List"
+            android:label="Data LSP"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TK_Graph"
+            android:label="Graph Tenaga Kerja"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LPPK"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".News_Board"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".News_detail"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QrCodeReader"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwalPelatihanV"
+            android:label="Jadwal Pelatihan"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

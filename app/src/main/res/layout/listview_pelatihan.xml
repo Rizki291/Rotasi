@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtPPL"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Program Pelatihan" />
+
+    <TextView
+        android:id="@+id/txttglPelaksana"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Tanggal Pelaksana" />
+
+    <TextView
+        android:id="@+id/txtprov"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Provinsi" />
+
+    <TextView
+        android:id="@+id/txtbiayaPelatihan"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Biaya Pelatihan" />
+
+    <TextView
+        android:id="@+id/txtklsLPPK"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Nama LPPK" />
+
+    <TextView
+        android:id="@+id/txtkontakLPPK"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Kontak LPPK" />
+
+    <TextView
+        android:id="@+id/txtalamat"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Alamat" />
+
+</LinearLayout>
